@@ -3,36 +3,6 @@
 <Document>
 	<name>Путь поставки №123456АВ</name>
 	<open>1</open>
-	<Style id="sn_ylw-pushpin">
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffdaf660</color>
-			<width>5</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_ylw-pushpin">
-		<BalloonStyle>
-		</BalloonStyle>
-		<LineStyle>
-			<color>ffdaf660</color>
-			<width>7.5</width>
-		</LineStyle>
-	</Style>
-	<Style id="icon-1899-DB4436-nodesc-highlight">
-		<IconStyle>
-			<color>ff3644db</color>
-			<Icon>
-				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-		</LabelStyle>
-		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
-		</BalloonStyle>
-	</Style>
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -43,6 +13,33 @@
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="icon-1899-DB4436-nodesc-highlight">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<LineStyle>
+			<color>ffdaf660</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_503-wht-blank_maps">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+	</Style>
 	<StyleMap id="icon-1899-DB4436-nodesc">
 		<Pair>
 			<key>normal</key>
@@ -53,31 +50,6 @@
 			<styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_503-wht-blank_maps">
-		<IconStyle>
-			<color>ff3644db</color>
-			<Icon>
-				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<LabelStyle>
-			<scale>0</scale>
-		</LabelStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
-	<Style id="sh_503-wht-blank_maps">
-		<IconStyle>
-			<color>ff3644db</color>
-			<Icon>
-				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-	</Style>
 	<Style id="icon-1899-DB4436-nodesc-normal">
 		<IconStyle>
 			<color>ff3644db</color>
@@ -93,6 +65,12 @@
 			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
 	</Style>
+	<Style id="sh_ylw-pushpin">
+		<LineStyle>
+			<color>ffdaf660</color>
+			<width>7.5</width>
+		</LineStyle>
+	</Style>
 	<StyleMap id="msn_503-wht-blank_maps">
 		<Pair>
 			<key>normal</key>
@@ -103,6 +81,18 @@
 			<styleUrl>#sh_503-wht-blank_maps</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_503-wht-blank_maps">
+		<IconStyle>
+			<color>ff3644db</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
 	<Placemark>
 		<name>Москва - Ярославль</name>
 		<description>Путь поставки №123456АВ</description>

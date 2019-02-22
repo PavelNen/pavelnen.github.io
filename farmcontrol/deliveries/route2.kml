@@ -2,6 +2,18 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>route2.kml</name>
+	<Style id="dir_route">
+		<LineStyle>
+			<color>7fff00ff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="dir_route0">
+		<LineStyle>
+			<color>7fff00ff</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
 	<Style id="dir_startpoint">
 		<IconStyle>
 			<Icon>
@@ -16,12 +28,6 @@
 			</Icon>
 		</IconStyle>
 	</Style>
-	<Style id="dir_route">
-		<LineStyle>
-			<color>7fff00ff</color>
-			<width>6</width>
-		</LineStyle>
-	</Style>
 	<Style id="dir_endpoint">
 		<IconStyle>
 			<Icon>
@@ -31,22 +37,6 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="dir_route0">
-		<LineStyle>
-			<color>7fff00ff</color>
-			<width>6</width>
-		</LineStyle>
-	</Style>
-	<StyleMap id="dir_route1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#dir_route0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#dir_route</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="dir_endpoint0">
 		<Pair>
 			<key>normal</key>
@@ -55,6 +45,16 @@
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#dir_endpoint</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="dir_route1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#dir_route0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#dir_route</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="dir_endpoint1">
@@ -120,7 +120,7 @@
 				</LineStyle>
 			</Style>
 			<Placemark id="1.5.2">
-				<name>Route</name>
+				<name>Путь достаки №1744</name>
 				<description>Москва - Владимир</description>
 				<styleUrl>#dir_route1</styleUrl>
 				<LineString>
