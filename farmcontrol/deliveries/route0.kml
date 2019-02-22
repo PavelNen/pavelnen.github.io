@@ -3,6 +3,21 @@
 <Document>
 	<name>Путь поставки №123456АВ</name>
 	<open>1</open>
+	<Style id="sh_red-square">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
 	<StyleMap id="msn_ylw-pushpin">
 		<Pair>
 			<key>normal</key>
@@ -13,17 +28,41 @@
 			<styleUrl>#sh_ylw-pushpin</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="icon-1899-DB4436-nodesc-highlight">
+	<Style id="sh_blu-blank">
 		<IconStyle>
-			<color>ff3644db</color>
 			<Icon>
-				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
 			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_go">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_go</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_go</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_go">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.gstatic.com/mapfiles/kml/paddle/go.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
 	<Style id="sn_ylw-pushpin">
 		<LineStyle>
@@ -31,68 +70,82 @@
 			<width>5</width>
 		</LineStyle>
 	</Style>
-	<Style id="sh_503-wht-blank_maps">
+	<Style id="sn_red-square">
 		<IconStyle>
-			<color>ff3644db</color>
 			<Icon>
-				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square.png</href>
 			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="icon-1899-DB4436-nodesc">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="icon-1899-DB4436-nodesc-normal">
-		<IconStyle>
-			<color>ff3644db</color>
-			<Icon>
-				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
 		<BalloonStyle>
-			<text><![CDATA[<h3>$[name]</h3>]]></text>
 		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
 	</Style>
+	<StyleMap id="msn_blu-blank">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_blu-blank</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_blu-blank</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_ylw-pushpin">
 		<LineStyle>
 			<color>ffdaf660</color>
 			<width>7.5</width>
 		</LineStyle>
 	</Style>
-	<StyleMap id="msn_503-wht-blank_maps">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_503-wht-blank_maps</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_503-wht-blank_maps</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_503-wht-blank_maps">
+	<Style id="sn_go">
 		<IconStyle>
-			<color>ff3644db</color>
 			<Icon>
-				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				<href>http://maps.gstatic.com/mapfiles/kml/paddle/go.png</href>
 			</Icon>
-			<hotSpot x="32" y="64" xunits="pixels" yunits="insetPixels"/>
 		</IconStyle>
 		<LabelStyle>
 			<scale>0</scale>
 		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
+	<Style id="sn_blu-blank">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/blu-blank-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_red-square">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-square</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-square</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Placemark>
 		<name>Москва - Ярославль</name>
 		<description>Путь поставки №123456АВ</description>
@@ -107,7 +160,7 @@
 	<Placemark>
 		<name>Москва</name>
 		<description>Производство и отправка.</description>
-		<styleUrl>#msn_503-wht-blank_maps</styleUrl>
+		<styleUrl>#msn_go</styleUrl>
 		<Point>
 			<coordinates>37.6170739,55.7562903,0</coordinates>
 		</Point>
@@ -115,7 +168,7 @@
 	<Placemark>
 		<name>Переславль-Залесский, Ярославская область</name>
 		<description>Склад</description>
-		<styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+		<styleUrl>#msn_blu-blank</styleUrl>
 		<Point>
 			<coordinates>38.8903088,56.74729620000001,0</coordinates>
 		</Point>
@@ -123,7 +176,7 @@
 	<Placemark>
 		<name>Ярославль</name>
 		<description>Груз принят.</description>
-		<styleUrl>#msn_503-wht-blank_maps</styleUrl>
+		<styleUrl>#msn_red-square</styleUrl>
 		<Point>
 			<coordinates>39.8844708,57.6260744,0</coordinates>
 		</Point>
